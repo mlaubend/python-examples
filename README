@@ -1,0 +1,7 @@
+SUMMARY:
+These are a couple python scripts that do the various tasks below:
+
+even_minus_odd.py:
+this script asks for a range of numbers, a multiple, and a first digit.  It then sorts the numbers into two lists, one for evens and one for odds, subtracts the odds from the evens and returns the value. 
+
+
