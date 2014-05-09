@@ -1,9 +1,11 @@
 SUMMARY:
 These are a couple python scripts that do the various tasks below:
 
-even_minus_odd.py:
+even_minus_odd.py: even_minus_odd(start, end, multiple=None/int, first_digit=None/int
 this script asks for a range of numbers, a multiple, and a first digit.  It then sorts the numbers into two lists, one for evens and one for odds, subtracts the odds from the evens and returns the value. 
 
-happy.py:
+happy.py: is_happy(int)
 checks if the number is a "happy" number.  A number is "happy" if the sum of the squares of its digits will eventually add up to 1.  A number is "sad" if it enters into an infinite loop that contains the number 4.  This script first checks if the number entered is a 1 or a 4, it then breaks up the number into its individual digits, squares them, and then adds them.  This loops until the number is eiter 1 (happy) or 4(sad)
 
+drywall.py: drywall_sheets_required(width, depth, height, sheetSize=(int, int), useScrap=True/False
+calculates the amount of drywall sheets needed to cover a given room, including sides, top and bottom of the room.  The dimensions of the drywall sheets are passed in as a parameter, as well as the height, width, and depth of the given room.  There is also a boolean passed on whether only full sheets of drywall are allowed or if scraps can be used. 
