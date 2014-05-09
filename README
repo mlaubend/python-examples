@@ -9,3 +9,6 @@ checks if the number is a "happy" number.  A number is "happy" if the sum of the
 
 drywall.py: drywall_sheets_required(width, depth, height, sheetSize=(int, int), useScrap=True/False
 calculates the amount of drywall sheets needed to cover a given room, including sides, top and bottom of the room.  The dimensions of the drywall sheets are passed in as a parameter, as well as the height, width, and depth of the given room.  There is also a boolean passed on whether only full sheets of drywall are allowed or if scraps can be used. 
+
+pyramid.py: pyramid(int)
+it creates a pyramid of sequential letters, with 1 letter beginning at the top, 2 on the next lowest level, 4 on the next lowest level, up to level n.  The alphabet repeats once the last letter has been used. 
