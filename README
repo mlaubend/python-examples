@@ -4,4 +4,6 @@ These are a couple python scripts that do the various tasks below:
 even_minus_odd.py:
 this script asks for a range of numbers, a multiple, and a first digit.  It then sorts the numbers into two lists, one for evens and one for odds, subtracts the odds from the evens and returns the value. 
 
+happy.py:
+checks if the number is a "happy" number.  A number is "happy" if the sum of the squares of its digits will eventually add up to 1.  A number is "sad" if it enters into an infinite loop that contains the number 4.  This script first checks if the number entered is a 1 or a 4, it then breaks up the number into its individual digits, squares them, and then adds them.  This loops until the number is eiter 1 (happy) or 4(sad)
 
